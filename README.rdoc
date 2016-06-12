@@ -1,0 +1,15 @@
+= Redmine Last update
+
+Adds column to ISSUE list view, last updated, witch shows date and first 1000 characters of last history entery, for specific issue.
+
+== Installation and Setup
+
+1. Follow the Redmine plugin installation steps at: http://www.redmine.org/wiki/redmine/Plugins 
+2. Restart your Redmine web servers (e.g. apache, mongrel, thin, mod_rails)
+
+3. Important: in order for the content of the column to be wrapped and not stretching the table width far beyond the window width, replace "white-space: nowrap;" with "white-space: normal;" in the "tr.issue" definition in public/stylesheets/application.css
+
+== Project help
+
+If you need help you can contact the maintainer at the Bug Tracker. The bug tracker is located at https://github.com/almalence/last_update/issues 
+
